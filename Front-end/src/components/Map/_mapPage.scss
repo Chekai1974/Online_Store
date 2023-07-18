@@ -1,0 +1,329 @@
+.footer {
+  background-color: white;
+  .container-footer {
+    width: 1440px;
+    margin: 0 auto;
+    .content-footer {
+      padding: 50px 0px;
+      .mapDiv {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        width: 100%;
+        .footer-left-text {
+          .footer-icons {
+            display: flex;
+            text-align: center;
+            gap: 40px;
+            .instagram-icon {
+              display: inline-block;
+              a {
+                font-family: $main-font-family;
+                font-weight: $font-width-700;
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
+              }
+            }
+            .wathsapp-icon {
+              a {
+                font-family: $main-font-family;
+                font-weight: $font-width-700;
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
+              }
+            }
+          }
+          h1 {
+            font-family: $main-font-family;
+            font-weight: $font-width-700;
+            font-size: 40px;
+          }
+          h3 {
+            font-family: $main-font-family;
+            font-weight: $font-width-600;
+            font-size: 50px;
+            margin: 28px 0px;
+          }
+        }
+        .footer-right-text {
+          h1 {
+            font-family: $main-font-family;
+            font-weight: $font-width-700;
+            font-size: 40px;
+            margin-bottom: 28px;
+          }
+          a {
+            font-family: $main-font-family;
+            font-weight: $font-width-600;
+            font-size: 40px;
+            color: black;
+          }
+          p {
+            margin: 27px 0px 8px 0px;
+            font-family: $main-font-family;
+            font-weight: $font-width-500;
+          }
+          h3 {
+            font-family: $main-font-family;
+            font-weight: $font-width-600;
+            font-size: 24px;
+          }
+        }
+      }
+      .map {
+        width: 100%;
+        height: 500px;
+      }
+    }
+  }
+}
+.map {
+  position: relative;
+  height: 500px;
+  width: 1440px;
+}
+@media (max-width: 1440px) {
+  .footer {
+    .container-footer {
+      width: 1200px;
+      .content-footer {
+        padding: 30px 0px;
+        .mapDiv {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 40px;
+          width: 100%;
+          .footer-left-text {
+            .footer-icons {
+              display: flex;
+              text-align: center;
+              gap: 40px;
+              .instagram-icon {
+                display: inline-block;
+                a {
+                  font-size: 16px;
+                }
+              }
+              .wathsapp-icon {
+                a {
+                  font-size: 16px;
+                  color: black;
+                }
+              }
+            }
+            h1 {
+              font-size: 35px;
+            }
+            h3 {
+              font-size: 45px;
+              margin: 28px 0px;
+            }
+          }
+          .footer-right-text {
+            h1 {
+              font-size: 35px;
+              margin-bottom: 28px;
+            }
+            a {
+              font-size: 35px;
+              color: black;
+            }
+            p {
+              margin: 27px 0px 8px 0px;
+            }
+            h3 {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .footer {
+    .container-footer {
+      width: 1000px;
+      .content-footer {
+        padding: 30px 0px;
+        .mapDiv {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 40px;
+          width: 100%;
+          .footer-left-text {
+            .footer-icons {
+              display: flex;
+              text-align: center;
+              gap: 40px;
+              .instagram-icon {
+                display: inline-block;
+                a {
+                  font-size: 16px;
+                }
+              }
+              .wathsapp-icon {
+                a {
+                  font-size: 16px;
+                  color: black;
+                }
+              }
+            }
+            h1 {
+              font-size: 35px;
+            }
+            h3 {
+              font-size: 45px;
+              margin: 28px 0px;
+            }
+          }
+          .footer-right-text {
+            h1 {
+              font-size: 35px;
+              margin-bottom: 28px;
+            }
+            a {
+              font-size: 35px;
+              color: black;
+            }
+            p {
+              margin: 27px 0px 8px 0px;
+            }
+            h3 {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    .container-footer {
+      width: 100%;
+      .content-footer {
+        padding: 30px 20px;
+        .mapDiv {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 40px;
+          width: 100%;
+          .footer-left-text {
+            .footer-icons {
+              display: flex;
+              text-align: center;
+              gap: 20px;
+              .instagram-icon {
+                display: inline-block;
+                a {
+                  font-size: 15px;
+                }
+              }
+              .wathsapp-icon {
+                a {
+                  font-size: 15px;
+                  color: black;
+                }
+              }
+            }
+            h1 {
+              font-size: 28px;
+            }
+            h3 {
+              font-size: 35px;
+              margin: 28px 0px;
+            }
+          }
+          .footer-right-text {
+            h1 {
+              font-size: 28px;
+              margin-bottom: 28px;
+            }
+            a {
+              font-size: 28px;
+              color: black;
+            }
+            p {
+              margin: 27px 0px 8px 0px;
+            }
+            h3 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 766px) {
+  .footer {
+    .container-footer {
+      width: 100%;
+      .content-footer {
+        padding: 10px 10px;
+        .mapDiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          margin-bottom: 40px;
+          width: 100%;
+          .footer-left-text {
+            // display: flex;
+            // align-items: center;
+            gap: 20px;
+            .footer-icons {
+              display: flex;
+              justify-content: center;
+              gap: 20px;
+              img{
+                width: 30px;
+              }
+              .instagram-icon {
+                display: inline-block;
+                a {
+                  font-size: 13px;
+                }
+              }
+              .wathsapp-icon {
+                a {
+                  font-size: 15px;
+                  color: black;
+                }
+              }
+            }
+            h1 {
+              display: none;
+              font-size: 28px;
+            }
+            h3 {
+              font-size: 28px;
+              margin: 28px 0px;
+            }
+          }
+          .footer-right-text {
+            h1 {
+              font-size: 28px;
+              margin: 40px 0px 20px 0px;
+            }
+            a {
+              font-size: 21px;
+              color: black;
+            }
+            p {
+              margin: 27px 0px 8px 0px;
+            }
+            h3 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// @media (max-width: 480px) {}
